@@ -1,7 +1,6 @@
 .container{
-    position: absolute;
     display: grid;
-
+    text-align: center;
 }
 .navbar {
     background-color: black;
@@ -53,4 +52,12 @@ footer{
 }
 li {
     list-style: none;
+}
+.imageh1{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+    font-size:90px
 }
