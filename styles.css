@@ -1,0 +1,56 @@
+.container{
+    position: absolute;
+    display: grid;
+
+}
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar a {
+    color:white;
+    text-decoration: none;
+}
+
+#theatreimage {
+    width: 100%;
+    height: auto;   
+}
+#actorimage {
+    width: 200px;
+    height: 200px;
+}
+.middle-content{
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+button {
+    background-color: #ffc107;
+    color: white;
+    border-color:#ffc107;
+    height: 35px;
+}
+#map {
+    height: 200px;
+    width: 200px;
+}
+footer{
+    background-color: black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
